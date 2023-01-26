@@ -9,7 +9,7 @@
   font-size: 13px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
 *{
     margin: 0;
@@ -36,7 +36,6 @@ body{
 }
 .box-1, .box-2{
   background: var(--Dark-Blue);
-  /* border: 1px solid white; */
   border-radius: 15px;
   padding: 20px;
   max-width: 350px;
