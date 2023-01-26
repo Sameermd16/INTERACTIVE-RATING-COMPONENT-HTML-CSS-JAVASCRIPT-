@@ -31,6 +31,7 @@ body{
   border: 1px solid white;
   border-radius: 15px;
   padding: 20px;
+  max-width: 350px;
 }
 .box-1 > div > img{
   padding: 10px;
@@ -46,13 +47,69 @@ p{
   color: rgba(255, 255, 255, 0.309);
 }
 .buttons-div > button{
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: none;
   background: hsla(211, 16%, 26%, 0.642);
   color: white;
+  cursor: pointer;
+}
+.buttons-div{
+  display: flex;
+  justify-content: space-around;
 }
 .box-1 > p{
   margin: 15px 0;
+}
+.submit-button{
+  width: 100%;
+  margin-top: 15px;
+  font-size: 12px;
+  padding: 10px 0;
+  background: var(--Orange);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.submit-button:hover{
+  background: white;
+  color: var(--Orange);
+}
+.buttons-div > button:hover{
+  background: var(--Orange);
+}
+.box-1 > .buttons-div > button:focus{
+  background-color: hsl(217, 12%, 63%);
+}
+.hidden{
+  display: none;
+}
+.box-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.rate-again{
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.rate-again:hover{
+  background: var(--Orange);
+  letter-spacing: 1px;
+  color: white;
+}
+.selected-rating{
+  padding: 10px 20px;
+  display: inline-block;
+  color: var(--Orange);
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  background: hsla(217, 12%, 63%, 0.319);
 }
