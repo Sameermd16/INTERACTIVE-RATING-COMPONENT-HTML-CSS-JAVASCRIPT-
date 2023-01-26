@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 13px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -25,10 +31,12 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: Overpass, sans-serif;
+  font-size: 15px;
 }
 .box-1, .box-2{
   background: var(--Dark-Blue);
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 15px;
   padding: 20px;
   max-width: 350px;
@@ -58,13 +66,14 @@ p{
 .buttons-div{
   display: flex;
   justify-content: space-around;
+  /* border: 1px solid white; */
 }
 .box-1 > p{
   margin: 15px 0;
 }
 .submit-button{
   width: 100%;
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 12px;
   padding: 10px 0;
   background: var(--Orange);
@@ -78,10 +87,10 @@ p{
   background: white;
   color: var(--Orange);
 }
-.buttons-div > button:hover{
+.buttons-div .btn:hover{
   background: var(--Orange);
 }
-.box-1 > .buttons-div > button:focus{
+.box-1 > .buttons-div > .btn:focus{
   background-color: hsl(217, 12%, 63%);
 }
 .box-2{
@@ -90,17 +99,22 @@ p{
   align-items: center;
   gap: 15px;
 }
+.box-2 p{
+  margin-bottom: 20px;
+}
 .rate-again{
   width: 100%;
   padding: 10px 0;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  background: var(--Orange);
+  color: white;
 }
 .rate-again:hover{
-  background: var(--Orange);
+  background: white;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 .selected-rating{
   padding: 10px 20px;
