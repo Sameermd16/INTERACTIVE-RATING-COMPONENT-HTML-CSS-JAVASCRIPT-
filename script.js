@@ -19,7 +19,3 @@ buttons.forEach((button) => {
         rating.innerHTML = button.innerHTML;
     })
 })
-
-// buttons.addEventListener("click", () => {
-//     rating.innerHTML = button.innerHTML;
-// })

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -9,7 +8,7 @@
   font-size: 13px;
 }
 .attribution a {
-  color: white;
+  color: skyblue;
 }
 *{
     margin: 0;
